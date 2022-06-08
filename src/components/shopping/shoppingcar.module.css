@@ -1,0 +1,44 @@
+.container__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cards {
+    width: 30%;
+    height: 100%;
+    border: 2px solid #eeeeee;
+    margin-bottom: 10px;
+}
+
+.cards img {
+    height: 200px;
+}
+
+.container_close {
+    padding: 10px;
+    text-align: end;
+}
+
+.container_close button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container__details {
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.container__details span {
+    color: #5b17aa;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards {
+        width: 40%;
+    }
+}

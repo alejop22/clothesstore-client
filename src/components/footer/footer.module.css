@@ -1,0 +1,34 @@
+.footer {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+}
+
+.imgs {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.imgs img {
+    cursor: pointer;
+}
+
+.copy {
+    padding: 10px;
+}
+
+.copy p {
+    margin: 0;
+}
+
+@media screen and (max-width: 816px) {
+    .container {
+        flex-direction: column;
+    }
+}

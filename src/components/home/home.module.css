@@ -1,0 +1,143 @@
+.img {
+    margin: 0;
+}
+
+.img img{
+    cursor: pointer;
+    height: 400px;
+    width: 83%;
+}
+
+.container__imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 400px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.img_1 {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 600px;
+    background-image: url('https://res.cloudinary.com/dc3i4vyci/image/upload/v1654693733/bunofoylldydlh8fbgi6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+}
+
+.img_1 h1 {
+    color: white;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.img_2 {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 600px;
+    background-image: url('https://res.cloudinary.com/dc3i4vyci/image/upload/v1654693920/pnzsakiabur4pyn5kmyn.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+}
+
+.img_2 h1 {
+    color: white;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.container__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.container__cards button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+.cards {
+    width: 30%;
+    height: 100%;
+    border: 2px solid #eeeeee;
+    margin-bottom: 10px;
+}
+
+.cards  img {
+    height: 200px;
+}
+
+.card {
+    width: 21%;
+    height: 100%;
+    border: 1px solid #eeeeee;
+}
+
+.card img {
+    height: 130px;
+}
+
+.container__details {
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.container__details span {
+    color: #5b17aa;
+    font-weight: bold;
+}
+
+.container__details button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .container__imgs {
+        height: 300px;
+    }
+
+    .img_1 {
+        width: 400px;
+    }
+
+    .img_1 h1 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .img_2 {
+        width: 500px;
+    }
+
+    .img_2 h1 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .cards {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .container__imgs {
+        height: 700px;
+    }
+
+    .img_1 {
+        margin-bottom: 10px;
+    }
+}
