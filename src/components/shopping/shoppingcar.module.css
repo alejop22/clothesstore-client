@@ -42,3 +42,12 @@
         width: 40%;
     }
 }
+
+@media screen and (max-width: 535px) {
+    .cards {
+        width: 50%;
+    }
+    .cards img {
+        height: 130px;
+    }
+}

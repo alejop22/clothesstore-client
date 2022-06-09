@@ -1,15 +1,15 @@
 # Clothesstore
 ----
 Web para la compañia ficticia Clothesstore.
-Hecha con React usando el boilerplate de create-react-app.
-
+Hecha con React usando el boilerplate de create-react-app y desplegada en vercel:
+```
+https://clothesstore-client.vercel.app/
+```
 ## instructuvo para correr el proyecto:
 
 `$ npm install`
 
 `$ npm start`
-
-`$ npm test`
 
 # Pantallas de la web
 ----

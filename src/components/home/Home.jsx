@@ -93,7 +93,7 @@ export default function Home({products, addShoppingCar}) {
                             </div>
                         </div>
                         <h2>PRODUCTOS MÁS BUSCADOS</h2>
-                        <div className={styles.container__cards}>
+                        <div className={styles.container__card}>
                             <button onClick={prevHandler}><img src="https://img.icons8.com/ios-glyphs/50/undefined/circled-chevron-left.png"/></button>
                             {
                                 productFavs.length > 0 ?
